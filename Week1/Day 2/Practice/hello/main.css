@@ -1,0 +1,21 @@
+h1{
+    color: white;
+    background-color: black;
+    text-align: left;
+    font-style:normal ;
+}
+h1 span{
+    color: aqua;
+}
+h2{
+    color: white;
+    background-color: rgb(106, 55, 154);
+    text-align: center;
+    font-style: italic;
+}
+h3{
+    color:white;
+    background-color: rgb(130, 146, 219);
+    text-align: right;
+    font-style: normal;
+}
