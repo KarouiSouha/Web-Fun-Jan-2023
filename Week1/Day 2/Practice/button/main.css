@@ -1,0 +1,26 @@
+.all{
+margin: 20px 30px;
+pading: 20px;
+}
+#search{
+   
+    border-radius:  30% 30%;
+    border-color: aquamarine;
+    background-color: aliceblue;
+    color: aquamarine;
+    font-size: 20px;
+    width: 150px;
+    height: 30px;
+}
+#add{
+    border-radius: 50%;
+    background-color: rgb(113, 232, 193);
+}
+#create{
+    border: 30px blod;
+    background-color: rgb(80, 80, 220);
+    box-shadow:  15px 10px 10px black;
+    font-size: 20px;
+    width: 170px;
+    height: 30px;
+}
