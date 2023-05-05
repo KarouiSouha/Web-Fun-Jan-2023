@@ -14,14 +14,14 @@ img.octocat {
     height: 200px;
     width: 200px;
     margin-left:70px;
-    margin-right: 30px;
+    margin-right: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
     
 }
 img.octocat2 {
     height: 200px;
-    width: 200px;
+    width: 150px;
     margin-left:60px;
     margin-right: 50px;
     margin-top: 20px;
@@ -32,20 +32,20 @@ img.octocat3 {
     height: 200px;
     width: 200px;
     margin-left:70px;
-    margin-right: 30px;
+    margin-right: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 .col_1{
     background-color: rgb(105, 227, 249);
-    width: 50%;
+    width: 60%;
 }
 .col_2{
     background-color: rgb(209, 154, 210);
-    width: 50%;
+    width: 60%;
     text-align: center;
 }
 .col_3{
     background-color: white;
-    width: 50%;
+    width: 60%;
 }

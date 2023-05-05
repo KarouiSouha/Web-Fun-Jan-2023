@@ -20,7 +20,8 @@
    
 }
  ul li a{ padding:10px 30px;
-    font-size: 25px;}
+    font-size: 25px;
+text-decoration: none;}
 .btn{
     color: white;
     background-color: rgb(92, 199, 199);
