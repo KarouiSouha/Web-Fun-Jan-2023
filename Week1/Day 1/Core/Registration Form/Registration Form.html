@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Registration Form</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+  
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="/process" method="post">
+    <div>
+      <label >First Name</label>
+      <input type="text" name="First Name">
+    </div>
+    <div>
+     <label >Last Name</label>
+      <input type="text" name="Name">
+    </div>
+    <div>
+     <label >Email Address</label>
+      <input type="email" name="Email">
+    </div>
+ <div>
+     <label >Password</label>
+      <input type="number" name="Password">
+    </div>
+     <div>
+     <label>Confirm Password</label>
+      <input type="number" name="Confirm">
+    </div>
+      <div>
+     <label>Birthday</label>
+      <input type="date" name="Birthday">
+    </div>
+       <div>
+         <input type="radio" name="Male" value="Male" id="Male">
+         <label for="Male">Male</label>
+         <input type="radio" name="Female" value="Female" id="Female">
+         <label for="Female">Female</label>
+         <input type="radio" name="Non-binary" value="Non-binary" id="Non-binary">
+         <label >Non-binary</label>
+         <input type="radio" name="I prefer not to answer" value="I prefer not to answer" id="comment">
+         <label for="i">I prefer not to answer</label>
+    </div>
+    
+        <label for="i">A short description about myself:</label>
+       <div>
+        <textarea name="comment" id="i" cols="10" rows="5"></textarea>
+    </div>
+    <div>
+        <label >Favorite Language</label>
+        <select name="Language" >
+            <option value="javascript">javascript</option>
+            <option value="java">java</option>
+            <option value="python">python</option>
+        </select>
+    </div>
+    <div>
+        <input type="checkbox" name="c" id="c" checked >
+        <label for="comment">Yes ,I would like to receive periodic email updates</label>
+    </div>
+    <input type="submit" value="Create Acount">
+    
+   <p> * Indicates a required field</p> 
+</form>
+
+</body>
+</html>
