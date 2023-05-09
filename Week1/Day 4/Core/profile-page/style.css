@@ -8,7 +8,7 @@
 .container{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 h1{  
     margin-left: 0px;
@@ -64,7 +64,7 @@ button{
         position:relative; 
         top:60px;
         padding-left:20px; 
-      border-radius: 50% ;
+        border-radius: 50% ;
 }
 .cont{
     border:#a28b8b 3px solid;
