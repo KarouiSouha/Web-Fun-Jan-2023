@@ -1,0 +1,76 @@
+.all{
+    display: block;
+    margin: 50px;
+}
+.nav_bar{
+    background-color: silver;
+    width: 70%;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;  
+    margin-left: 50px;
+}
+.nav_bar button{
+    background-color: rgb(51, 51, 226);
+    box-shadow: 5px 2px 0px 0px black;
+     color: white;
+}
+.container{
+    display: flex;
+}
+.section{display: block;
+    margin: 30px;
+
+}
+.section1{
+    border: 5px solid black;
+     display: flex;
+     margin: 20px;
+     width: 100%;
+    
+}
+#title{display: block;
+    margin-left: 15px;}
+.info1{
+text-align: center;
+font-size: 15px;
+margin-left: 20px;
+}
+.likes{
+    background-color: yellow;
+    border: 3px solid black;
+    box-shadow: 5px 2px 0px 0px black;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.section2{
+    border: 5px solid black;
+     display: flex;
+     margin: 20px;
+     width: 100%;
+    
+}
+.info2{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 15px;
+    }
+ 
+.aside{
+  border: 5px solid black; 
+  width: 10%;
+  height: 30%; 
+  margin-top:50px;
+  padding: 10px;
+}    
+.aside p{
+    margin-left: 20px;
+}
+span{
+    font-weight: bold;
+}
+#add{
+    background-color: rgb(90, 180, 90);
+    box-shadow: 5px 2px 0px 0px black;
+}
