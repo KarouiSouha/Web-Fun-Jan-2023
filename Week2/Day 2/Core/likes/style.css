@@ -1,0 +1,21 @@
+.container{
+    border:3px solid black;
+    width: 50%;
+}
+.ligne1{
+    display: flex;
+    justify-content: space-between;
+    margin:20px;
+}
+#like{
+    gap:30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.btn{
+    background-color: yellow;
+    box-shadow: 5px 3px 0px 0px;
+
+}
