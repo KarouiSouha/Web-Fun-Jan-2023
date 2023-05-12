@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <div class="top">
+        <div class="nav display space-between"> 
+            <h1>weather</h1>
+            <ul class="nav-links display space-between">
+                <li><a href="#" onclick="alert('loarding weather repport ...')">Burbank</a></li>
+            <li><a onclick="loadding()">chiagao</a></li>
+            <li><a onclick="loadding()">Dalas</a></li>
+        </ul>
+        </div>
+    </div>
+    <div class="main">
+        <div class="firstpart display space-between">
+            <h1>San Jose</h1>
+            <div class="temperature ">
+                <label >show temperature in </label>
+                <select name="'temperatureUnit" onchange="change(this)" class="select">
+              <option >°C</option>
+           <option>°F</option>
+                </select>
+
+            </div>
+        </div>
+    </div>
+    <!--popup-->
+    <div id="popup">
+        <div class="image"><img src="assets/cookie.png" alt="cookie"></div>
+        <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab natus saepe tempora, dolores excepturi veniam earum reiciendis illo provident officia est necessitatibus itaque iure eius aperiam totam asperiores? Deleniti, consequuntur?</div>
+        <div class="btn"><button onclick="accept()">i accept</button></div>
+    </div>
+    <script src='main.js'>
+
+    </script>
+</body>
+</html>
